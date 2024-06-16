@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+.first
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, suffron, lightpink);
+    padding: 10px;
+}

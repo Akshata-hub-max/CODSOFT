@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: fantasy;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,6 +9,63 @@
 {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom right, suffron, lightpink);
+    background: linear-gradient(to bottom right,brown,green);
     padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:lightgoldenrodyellow;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 10px;
+}
+button{
+    border: none;
+    outline: none;  
+    padding: 16px 50px;
+    background:rgb(136, 48, 48) ;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+li button {
+    padding: 16px 50px;
+    cursor: pointer;
 }
